@@ -1,3 +1,2 @@
 --!strict
-
 return nil
