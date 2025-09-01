@@ -6,7 +6,7 @@ local MP_Valley = levelSetup:shortName()
 local gameMode = levelSetup:gameMode()
 
 -- TDM modules
-if string.find(MP_Valley, "MP_Valley") and string.find(gameMode, "TeamDeathMatch0") then
+if string.find(MP_Valley, "XP7_Valley") and string.find(gameMode, "TeamDeathMatch0") then
 	require("Valley_TDM_OOB")
 	--require("Valley_TDM_SpawnPoints")
 	print("TDM VALLEY ENABLED!!")
