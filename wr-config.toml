@@ -1,6 +1,6 @@
 [script]
 name = "custom-valley"
-version = "0.1.0"
+version = "0.1.1"
 author_ids = ["GingerFury"]
 description = "Custom Zones for Valley"
 repository = "https://github.com/GingerFury6/custom-valley"
