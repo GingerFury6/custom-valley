@@ -11,16 +11,16 @@ local WorldTweak = WorldTweak_
 ---- SPAWN POINT 1
 
 local SpawnPoint1 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("228B6F25-D9E7-401F-8439-7EBE00D215B6"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("19E7248D-195E-4335-99F3-79D740F7DBFB"),
 }
 
 function WorldTweak:OnSpawnPoint1Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.9997569918632507, y = 0, z = -0.02204391360282898 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.02204391360282898, y = 0, z = -0.9997569918632507 }),
-		trans = Vec3.fromTable({ x = 59.47895050048828, y = 69.2492446899414, z = -382.52020263671875 }),
+		right = Vec3.fromTable({x = 0.08097881078720093, y = 0, z = -0.9967158436775208}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9967158436775208, y = 0, z = 0.08097881078720093}), 
+		trans = Vec3.fromTable({x = -237.00608825683594, y = 117.98617553710938, z = 1590.40283203125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -35,16 +35,16 @@ partitions.onInstanceLoad(
 ---- SPAWN POINT 2
 
 local SpawnPoint2 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("BA9EFA27-9C07-401D-8DED-BB39F01F248F"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("6AC74909-36E8-40E7-8CB3-BAC5649378D4"),
 }
 
 function WorldTweak:OnSpawnPoint2Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.3763200342655182, y = 0, z = 0.9264897108078003 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.9264897108078003, y = 0, z = -0.3763200342655182 }),
-		trans = Vec3.fromTable({ x = 60.430938720703125, y = 69.2498779296875, z = -374.6563720703125 }),
+		right = Vec3.fromTable({x = -0.7260612845420837, y = 0, z = -0.6876299977302551}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.6876299977302551, y = 0, z = -0.7260612845420837}), 
+		trans = Vec3.fromTable({x = -227.41941833496094, y = 117.98617553710938, z = 1568.3138427734375}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -59,16 +59,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT3
 
 local SpawnPoint3 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("17773FD1-64E9-41B4-A4D6-ABC556B27BAC"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("3BE401AA-616C-4CA9-A81C-E0B326283FB8"),
 }
 
 function WorldTweak:OnSpawnPoint3Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.7542172074317932, y = 0, z = 0.6566250324249268 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.6566250324249268, y = 0, z = -0.7542172074317932 }),
-		trans = Vec3.fromTable({ x = 52.766273498535156, y = 64.504150390625, z = -357.21673583984375 }),
+		right = Vec3.fromTable({x = -0.9664645791053772, y = 0, z = -0.25679999589920044}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.25679999589920044, y = 0, z = -0.9664645791053772}), 
+		trans = Vec3.fromTable({x = -239.56492614746094, y = 117.9917221069336, z = 1548.196533203125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -83,16 +83,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT4
 
 local SpawnPoint4 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("C27858CF-6E1C-4135-B3DA-50688C3BC8E1"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("9740576E-AE11-43DC-A4B4-1C42DB26488B"),
 }
 
 function WorldTweak:OnSpawnPoint4Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.6544640064239502, y = 0, z = 0.7560931444168091 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.7560931444168091, y = 0, z = -0.6544640064239502 }),
-		trans = Vec3.fromTable({ x = 67.75272369384766, y = 69.24935150146484, z = -392.0930480957031 }),
+		right = Vec3.fromTable({x = -0.20715969800949097, y = 0, z = 0.9783071279525757}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.9783071279525757, y = 0, z = -0.20715969800949097}), 
+		trans = Vec3.fromTable({x = -237.70172119140625, y = 117.99834442138672, z = 1526.8966064453125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -107,16 +107,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT5
 
 local SpawnPoint5 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("CED727AB-92A6-4B5C-9878-9F44E5A859DC"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("7A44D198-159A-45BD-9666-66943FF24547"),
 }
 
 function WorldTweak:OnSpawnPoint5Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.8706468343734741, y = 0, z = -0.49190863966941833 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.49190863966941833, y = 0, z = 0.8706468343734741 }),
-		trans = Vec3.fromTable({ x = -117.17821502685547, y = 69.15333557128906, z = -459.91241455078125 }),
+		right = Vec3.fromTable({x = 0.03815292567014694, y = 0, z = 0.9992719292640686}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.9992719292640686, y = 0, z = 0.03815292567014694}), 
+		trans = Vec3.fromTable({x = -279.48046875, y = 119.24132537841797, z = 1583.411865234375}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -131,16 +131,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT6
 
 local SpawnPoint6 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("4D0CA692-4895-4608-BCDE-19F71E08CD48"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("168F5390-9C93-4EA3-B339-314F9A65DB7E"),
 }
 
 function WorldTweak:OnSpawnPoint6Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.3336796164512634, y = 0, z = -0.9426865577697754 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.9426865577697754, y = 0, z = -0.3336796164512634 }),
-		trans = Vec3.fromTable({ x = -133.60757446289062, y = 67.26619720458984, z = -439.2086181640625 }),
+		right = Vec3.fromTable({x = -0.9812572002410889, y = 0, z = 0.19270272552967072}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.19270272552967072, y = 0, z = -0.9812572002410889}), 
+		trans = Vec3.fromTable({x = -306.520263671875, y = 117.98614501953125, z = 1589.266357421875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -155,16 +155,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT7
 
 local SpawnPoint7 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("5F76A0C0-52D3-49CB-AD13-5617D69407CC"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("5EACAA32-F18B-4323-9757-8E4C318DA924"),
 }
 
 function WorldTweak:OnSpawnPoint7Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.8753299713134766, y = 0, z = -0.4835260808467865 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.4835260808467865, y = 0, z = 0.8753299713134766 }),
-		trans = Vec3.fromTable({ x = -132.44786071777344, y = 67.23539733886719, z = -456.0978088378906 }),
+		right = Vec3.fromTable({x = 0.8647687435150146, y = 0, z = -0.5021703243255615}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.5021703243255615, y = 0, z = 0.8647687435150146}),
+		trans = Vec3.fromTable({x = -334.31072998046875, y = 117.98617553710938, z = 1595.9202880859375}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -179,16 +179,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT8
 
 local SpawnPoint8 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("CBE8F556-0EA6-46BC-A7FA-ED63B1342A47"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("FE11D8E5-1167-4D16-927D-79A7DC242282"),
 }
 
 function WorldTweak:OnSpawnPoint8Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.08171878010034561, y = 0, z = -0.9966554045677185 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.9966554045677185, y = 0, z = 0.08171878010034561 }),
-		trans = Vec3.fromTable({ x = -145.71536254882812, y = 67.2651596069336, z = -443.9528503417969 }),
+		right = Vec3.fromTable({x = -0.6222090721130371, y = 0, z = 0.7828510999679565}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.7828510999679565, y = 0, z = -0.6222090721130371}), 
+		trans = Vec3.fromTable({x = -341.0318298339844, y = 118.05902862548828, z = 1577.553955078125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -203,16 +203,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT9
 
 local SpawnPoint9 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("A71BAE6D-2A6D-4367-8771-0284C77D1086"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("E65D905E-FFA6-4BD8-A9D3-5428B24CD4CB"),
 }
 
 function WorldTweak:OnSpawnPoint9Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.6838570237159729, y = 0, z = -0.7296160459518433 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.7296160459518433, y = 0, z = 0.6838570237159729 }),
-		trans = Vec3.fromTable({ x = -76.48271179199219, y = 69.15186309814453, z = -470.7138977050781 }),
+		right = Vec3.fromTable({x = 0.7862800359725952, y = 0, z = -0.6178702712059021}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.6178702712059021, y = 0, z = 0.7862800359725952}), 
+		trans = Vec3.fromTable({x = -313.4416809082031, y = 117.99783325195312, z = 1559.9012451171875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -227,16 +227,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT10
 
 local SpawnPoint10 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("19A4A3D7-0B33-450A-AE92-25CEF6D16963"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("B09A9DE1-C408-4278-94B5-C38803F1F612"),
 }
 
 function WorldTweak:OnSpawnPoint10Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.38651326298713684, y = 0, z = 0.9222838282585144 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.9222838282585144, y = 0, z = 0.38651326298713684 }),
-		trans = Vec3.fromTable({ x = -38.93571853637695, y = 69.25919342041016, z = -466.28387451171875 }),
+		right = Vec3.fromTable({x = -0.8072811365127563, y = 0, z = 0.5901671051979065}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.5901671051979065, y = 0, z = -0.8072811365127563}), 
+		trans = Vec3.fromTable({x = -347.12945556640625, y = 116.75701904296875, z = 1547.2237548828125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -251,16 +251,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT11
 
 local SpawnPoint11 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("3C382513-D851-4ABD-A751-94860EFDD083"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("FD953A70-4238-4FF9-905C-AE217089E094"),
 }
 
 function WorldTweak:OnSpawnPoint11Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.3569856286048889, y = 0, z = -0.9341098666191101 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.9341098666191101, y = 0, z = 0.3569856286048889 }),
-		trans = Vec3.fromTable({ x = -82.65421295166016, y = 69.14151000976562, z = -477.8562316894531 }),
+		right = Vec3.fromTable({x = -0.9858850240707397, y = 0, z = -0.16742363572120667}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.16742363572120667, y = 0, z = -0.9858850240707397}), 
+		trans = Vec3.fromTable({x = -368.1302490234375, y = 115.85086059570312, z = 1548.300048828125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -275,16 +275,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT12
 
 local SpawnPoint12 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("49762015-5248-4BCC-BFF1-33A387865ED0"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("059B1D45-266E-4797-8299-FAFAD307A67E"),
 }
 
 function WorldTweak:OnSpawnPoint12Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.9279347062110901, y = 0, z = -0.37274283170700073 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.37274283170700073, y = 0, z = -0.9279347062110901 }),
-		trans = Vec3.fromTable({ x = -87.37671661376953, y = 69.1521987915039, z = -472.6004333496094 }),
+		right = Vec3.fromTable({x = -0.9989058971405029, y = 0, z = -0.046765994280576706}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.046765994280576706, y = 0, z = -0.9989058971405029}), 
+		trans = Vec3.fromTable({x = -364.1072082519531, y = 115.85086059570312, z = 1522.067138671875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -299,16 +299,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT13
 
 local SpawnPoint13 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("837DB720-5244-4C88-BD33-189C8E47C0C4"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("2855FAA3-234F-40CB-A5F5-686B2A362C9F"),
 }
 
 function WorldTweak:OnSpawnPoint13Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.7886935472488403, y = 0, z = 0.6147865056991577 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.6147865056991577, y = 0, z = -0.7886935472488403 }),
-		trans = Vec3.fromTable({ x = -48.215633392333984, y = 65.78092193603516, z = -381.5857238769531 }),
+		right = Vec3.fromTable({x = -0.9995077252388, y = 0, z = -0.031373683363199234}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.031373683363199234, y = 0, z = -0.9995077252388}), 
+		trans = Vec3.fromTable({x = -298.2596130371094, y = 117.99365234375, z = 1524.889404296875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -323,16 +323,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT14
 
 local SpawnPoint14 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("13C95B0B-EF0C-4C4C-8DA7-E9EAD07E5F1F"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("2F10E151-D2FC-4CF2-AAB8-9CF9D9DDB109"),
 }
 
 function WorldTweak:OnSpawnPoint14Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.9481614828109741, y = 0, z = 0.31778889894485474 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.31778889894485474, y = 0, z = -0.9481614828109741 }),
-		trans = Vec3.fromTable({ x = -62.80146408081055, y = 64.45321655273438, z = -378.33331298828125 }),
+		right = Vec3.fromTable({x = 0.8442072868347168, y = 0, z = -0.5360168814659119}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.5360168814659119, y = 0, z = 0.8442072868347168}), 
+		trans = Vec3.fromTable({x = -316.9555358886719, y = 117.98644256591797, z = 1520.6912841796875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -347,16 +347,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT15
 
 local SpawnPoint15 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("44FD79E5-F11D-4492-BF53-BEEE03873FC5"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("CE7D1B9A-D6CA-4284-90D4-A3E63C6F1977"),
 }
 
 function WorldTweak:OnSpawnPoint15Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.7247934341430664, y = 0, z = -0.6889662742614746 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.6889662742614746, y = 0, z = -0.7247934341430664 }),
-		trans = Vec3.fromTable({ x = -87.1672134399414, y = 65.6902847290039, z = -391.11907958984375 }),
+		right = Vec3.fromTable({x = 0.45144855976104736, y = 0, z = -0.8922971487045288}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.8922971487045288, y = 0, z = 0.45144855976104736}), 
+		trans = Vec3.fromTable({x = -344.3053283691406, y = 118.06483459472656, z = 1505.5396728515625}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -371,16 +371,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT16
 
 local SpawnPoint16 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("0C7E62F4-B9D4-4EE0-B2E5-646CF9D3E519"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("5766F5F8-DDDD-4485-BB9B-19DCBABA9B82"),
 }
 
 function WorldTweak:OnSpawnPoint16Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.9218447804450989, y = 0, z = -0.38755926489830017 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.38755926489830017, y = 0, z = -0.9218447804450989 }),
-		trans = Vec3.fromTable({ x = -90.8446273803711, y = 67.39065551757812, z = -391.7222595214844 }),
+		right = Vec3.fromTable({x = -0.24934621155261993, y = 0, z = -0.9684144258499146}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9684144258499146, y = 0, z = -0.24934621155261993}), 
+		trans = Vec3.fromTable({x = -284.8147888183594, y = 118.1166763305664, z = 1506.2359619140625}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -395,16 +395,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOIN17
 
 local SpawnPoin17 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("886B5172-07DD-4891-AD47-D70F92160F9A"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("E5DBA9B7-61A9-4D2D-86A8-17779A756D12"),
 }
 
 function WorldTweak:OnSpawnPoin17Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.5735794305801392, y = 0, z = -0.819149911403656 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.819149911403656, y = 0, z = -0.5735794305801392 }),
-		trans = Vec3.fromTable({ x = -90.45149993896484, y = 64.4937744140625, z = -381.47467041015625 }),
+		right = Vec3.fromTable({x = -0.2959071099758148, y = 0, z = -0.9552167057991028}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9552167057991028, y = 0, z = -0.2959071099758148}), 
+		trans = Vec3.fromTable({x = -301.78131103515625, y = 118.9167251586914, z = 1479.107666015625}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -419,16 +419,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT18
 
 local SpawnPoint18 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("FE08A04E-19D6-457E-AA91-3090442C5D6E"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("0D7522ED-C1DE-4077-AA2F-E98825B22ABD"),
 }
 
 function WorldTweak:OnSpawnPoint18Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.0041131735779345036, y = 0, z = -0.9999915361404419 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = 0.9999915361404419, y = 0, z = -0.0041131735779345036 }),
-		trans = Vec3.fromTable({ x = -14.065827369689941, y = 68.02108764648438, z = -404.4520568847656 }),
+		right = Vec3.fromTable({x = 0.9704053997993469, y = 0, z = 0.24148151278495789}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.24148151278495789, y = 0, z = 0.9704053997993469}), 
+		trans = Vec3.fromTable({x = -347.8892517089844, y = 116.75077819824219, z = 1473.445068359375}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -443,16 +443,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT19
 
 local SpawnPoint19 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("E7D290AC-3F29-4C28-9A2F-3B56EEF5E964"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("387422B9-DAEC-4BBF-BD34-4BADD3C13DF1"),
 }
 
 function WorldTweak:OnSpawnPoint19Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.9998619556427002, y = 0, z = 0.016614647582173347 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.016614647582173347, y = 0, z = 0.9998619556427002 }),
-		trans = Vec3.fromTable({ x = 16.54704475402832, y = 68.02108764648438, z = -436.9405822753906 }),
+		right = Vec3.fromTable({x = 0.8682747483253479, y = 0, z = -0.4960835874080658}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.4960835874080658, y = 0, z = 0.8682747483253479}), 
+		trans = Vec3.fromTable({x = -268.186767578125, y = 118.08596801757812, z = 1473.65185546875}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -467,16 +467,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT20
 
 local SpawnPoint20 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("3D084772-B555-426F-B17E-16F703A51727"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("62B9F6F7-B2F7-4828-A1C7-745C428A7031"),
 }
 
 function WorldTweak:OnSpawnPoint20Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = 0.75665283203125, y = 0, z = 0.653816819190979 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.653816819190979, y = 0, z = 0.75665283203125 }),
-		trans = Vec3.fromTable({ x = 12.529356956481934, y = 73.14214324951172, z = -438.48828125 }),
+		right = Vec3.fromTable({x = 0.8153138160705566, y = 0, z = -0.5790193676948547}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.5790193676948547, y = 0, z = 0.8153138160705566}), 
+		trans = Vec3.fromTable({x = -235.7572479248047, y = 124.40814971923828, z = 1438.1348876953125}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -491,16 +491,16 @@ partitions.onInstanceLoad(
 ---- SPAWNPOINT21
 
 local SpawnPoint21 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("0E2CF9C3-0C7F-48CF-93AC-B227B134E984"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("7CA35DB8-5F60-419A-A1CC-EAEB7482306A"),
 }
 
 function WorldTweak:OnSpawnPoint21Loaded(p_Instance: AlternateSpawnEntityData)
 	p_Instance.transform = LinearTransform.fromTable({
-		right = Vec3.fromTable({ x = -0.9962234497070312, y = 0, z = 0.08682668209075928 }),
-		up = Vec3.fromTable({ x = 0, y = 1, z = 0 }),
-		forward = Vec3.fromTable({ x = -0.08682668209075928, y = 0, z = -0.9962234497070312 }),
-		trans = Vec3.fromTable({ x = -7.034482955932617, y = 73.14395904541016, z = -421.0596008300781 }),
+		right = Vec3.fromTable({x = 0.304214745759964, y = 0, z = -0.9526034593582153}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9526034593582153, y = 0, z = 0.304214745759964}), 
+		trans = Vec3.fromTable({x = -234.22479248046875, y = 124.40814971923828, z = 1424.2154541015625}),
 	})
 	--print("YOOOOOOOO SPAWNS!!!")
 end
@@ -510,6 +510,174 @@ partitions.onInstanceLoad(
 	SpawnPoint21.instanceGuid,
 	WorldTweak,
 	WorldTweak.OnSpawnPoint21Loaded
+)
+
+---- SPAWNPOINT22
+
+local SpawnPoint22 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("CC56483D-17FB-4D93-BC0D-5EF4D4A34EA4"),
+}
+
+function WorldTweak:OnSpawnPoint22Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.11352379620075226, y = 0, z = -0.9935352802276611}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9935352802276611, y = 0, z = 0.11352379620075226}), 
+		trans = Vec3.fromTable({x = -284.5943298339844, y = 124.40814971923828, z = 1434.81787109375}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint22.partitionGuid,
+	SpawnPoint22.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint22Loaded
+)
+
+---- SPAWNPOINT23
+
+local SpawnPoint23 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("C7F1A33E-BF6B-43B7-9F02-4B0FC7FD085E"),
+}
+
+function WorldTweak:OnSpawnPoint23Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.5228478908538818, y = 0, z = 0.8524259924888611}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.8524259924888611, y = 0, z = 0.5228478908538818}), 
+		trans = Vec3.fromTable({x = -297.3730773925781, y = 124.40814971923828, z = 1459.210693359375}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint23.partitionGuid,
+	SpawnPoint23.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint23Loaded
+)
+
+---- SPAWNPOINT24
+
+local SpawnPoint24 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("F7F6878A-DD4E-478D-BE1E-DF5125C69EA3"),
+}
+
+function WorldTweak:OnSpawnPoint24Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.5789129734039307, y = 0, z = -0.8153893351554871}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.8153893351554871, y = 0, z = 0.5789129734039307}), 
+		trans = Vec3.fromTable({x = -326.66937255859375, y = 124.46019744873047, z = 1426.1650390625}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint24.partitionGuid,
+	SpawnPoint24.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint24Loaded
+)
+
+---- SPAWNPOINT25
+
+local SpawnPoint25 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("573234BC-A7E2-4C50-B00A-7DE9720044CF"),
+}
+
+function WorldTweak:OnSpawnPoint25Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = -0.04520590603351593, y = 0, z = -0.9989776611328125}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.9989776611328125, y = 0, z = -0.04520590603351593}), 
+		trans = Vec3.fromTable({x = -348.0552978515625, y = 124.44944763183594, z = 1465.745849609375}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint25.partitionGuid,
+	SpawnPoint25.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint25Loaded
+)
+
+---- SPAWNPOINT26
+
+local SpawnPoint26 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("004AEE5D-89A8-402D-A467-C124E81A337D"),
+}
+
+function WorldTweak:OnSpawnPoint26Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.7235381007194519, y = 0, z = -0.6902844905853271}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.6902844905853271, y = 0, z = 0.7235381007194519}), 
+		trans = Vec3.fromTable({x = -256.4214172363281, y = 124.40814971923828, z = 1459.1124267578125}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint26.partitionGuid,
+	SpawnPoint26.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint26Loaded
+)
+
+---- SPAWNPOINT27
+
+local SpawnPoint27 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("50A0E8DD-57A5-4F7F-93BF-D93CBAEB7FBB"),
+}
+
+function WorldTweak:OnSpawnPoint27Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.7508871555328369, y = 0, z = -0.6604305505752563}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = 0.6604305505752563, y = 0, z = 0.7508871555328369}), 
+		trans = Vec3.fromTable({x = -216.47872924804688, y = 124.40814971923828, z = 1412.024169921875}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint27.partitionGuid,
+	SpawnPoint27.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint27Loaded
+)
+
+---- SPAWNPOINT27
+
+local SpawnPoint28 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("A6869F82-291A-47DF-B1B5-2844DFA162B8"),
+}
+
+function WorldTweak:OnSpawnPoint28Loaded(p_Instance: AlternateSpawnEntityData)
+	p_Instance.transform = LinearTransform.fromTable({
+		right = Vec3.fromTable({x = 0.8786138892173767, y = 0, z = 0.47753283381462097}), 
+		up = Vec3.fromTable({x = 0, y = 1, z = 0}), 
+		forward = Vec3.fromTable({x = -0.47753283381462097, y = 0, z = 0.8786138892173767}), 
+		trans = Vec3.fromTable({x = -200.51023864746094, y = 124.40814971923828, z = 1456.7994384765625}),
+	})
+	--print("YOOOOOOOO SPAWNS!!!")
+end
+
+partitions.onInstanceLoad(
+	SpawnPoint28.partitionGuid,
+	SpawnPoint28.instanceGuid,
+	WorldTweak,
+	WorldTweak.OnSpawnPoint28Loaded
 )
 
 return nil
