@@ -18,30 +18,21 @@ function ValleyMapTweakTDM:OnMiniMapOOBLoaded(p_Instance: VolumeVectorShapeData)
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({x = -223.17752075195312, y = 115.57725524902344, z = 1604.0614013671875}), 
-		Vec3.fromTable({x = -249.81117248535156, y = 115.5772705078125, z = 1603.651123046875}), 
-		Vec3.fromTable({x = -253.57266235351562, y = 115.57726287841797, z = 1597.9029541015625}), 
-		Vec3.fromTable({x = -253.22023010253906, y = 116.71881103515625, z = 1553.2418212890625}), 
-		Vec3.fromTable({x = -271.4930725097656, y = 116.70453643798828, z = 1553.279052734375}), 
-		Vec3.fromTable({x = -271.097900390625, y = 115.5772705078125, z = 1597.6011962890625}), 
-		Vec3.fromTable({x = -273.2315979003906, y = 115.5772476196289, z = 1603.2657470703125}), 
-		Vec3.fromTable({x = -354.7073974609375, y = 115.57726287841797, z = 1601.5565185546875}), 
-		Vec3.fromTable({x = -371.2015075683594, y = 115.5772705078125, z = 1601.2296142578125}), 
-		Vec3.fromTable({x = -370.9246520996094, y = 115.77108764648438, z = 1558.5152587890625}), 
-		Vec3.fromTable({x = -370.73956298828125, y = 115.77108764648438, z = 1507.74365234375}), 
-		Vec3.fromTable({x = -370.34002685546875, y = 115.5772705078125, z = 1446.9669189453125}), 
-		Vec3.fromTable({x = -356.42864990234375, y = 116.84927368164062, z = 1421.015380859375}), 
-		Vec3.fromTable({x = -354.02581787109375, y = 117.4511489868164, z = 1420.9085693359375}), 
-		Vec3.fromTable({x = -319.15570068359375, y = 124.40814971923828, z = 1389.5377197265625}), 
-		Vec3.fromTable({x = -267.57769775390625, y = 124.40814971923828, z = 1389.7783203125}), 
-		Vec3.fromTable({x = -215.09165954589844, y = 124.43628692626953, z = 1389.709716796875}), 
-		Vec3.fromTable({x = -198.04685974121094, y = 124.40814971923828, z = 1405.7911376953125}), 
-		Vec3.fromTable({x = -189.41015625, y = 124.40814971923828, z = 1414.24609375}), 
-		Vec3.fromTable({x = -189.07217407226562, y = 124.40814971923828, z = 1440.2498779296875}), 
-		Vec3.fromTable({x = -188.85592651367188, y = 124.49304962158203, z = 1484.164306640625}), 
-		Vec3.fromTable({x = -198.9782257080078, y = 124.97782897949219, z = 1485.3414306640625}), 
-		Vec3.fromTable({x = -223.0863800048828, y = 121.85859680175781, z = 1484.867431640625}), 
-		Vec3.fromTable({x = -223.1614227294922, y = 117.98616790771484, z = 1485.7872314453125}),
+		Vec3.fromTable({ x = -213.27886962890625, y = 115.57727813720703, z = 1602.478759765625 }),
+		Vec3.fromTable({ x = -213.51104736328125, y = 117.98617553710938, z = 1484.355712890625 }),
+		Vec3.fromTable({ x = -199.99819946289062, y = 117.63909149169922, z = 1484.66455078125 }),
+		Vec3.fromTable({ x = -200.17520141601562, y = 125.14208221435547, z = 1484.875732421875 }),
+		Vec3.fromTable({ x = -183.6353759765625, y = 124.49376678466797, z = 1484.031982421875 }), 
+		Vec3.fromTable({ x = -183.5749969482422, y = 124.49375915527344, z = 1418.763427734375 }),
+		Vec3.fromTable({ x = -216.28240966796875, y = 124.41735076904297, z = 1390.1279296875 }),
+		Vec3.fromTable({ x = -319.3074951171875, y = 124.40814971923828, z = 1390.2755126953125 }),
+		Vec3.fromTable({ x = -337.7821960449219, y = 124.43571472167969, z = 1404.3963623046875 }),
+		Vec3.fromTable({ x = -354.174560546875, y = 117.53713989257812, z = 1420.83203125 }),
+		Vec3.fromTable({ x = -356.5053405761719, y = 116.83683776855469, z = 1420.8184814453125 }),
+		Vec3.fromTable({ x = -369.10540771484375, y = 115.57726287841797, z = 1445.3924560546875 }),
+		Vec3.fromTable({ x = -369.89959716796875, y = 115.77108764648438, z = 1510.64599609375 }),
+		Vec3.fromTable({ x = -370.1000671386719, y = 115.7710952758789, z = 1558.2662353515625 }),
+		Vec3.fromTable({ x = -369.9495849609375, y = 115.5772705078125, z = 1600.0853271484375 }),
 	}
 
 	for _, point in pairs(points) do
@@ -69,30 +60,21 @@ function ValleyMapTweakTDM:OnOOBLoaded(p_Instance: VolumeVectorShapeData)
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({x = -223.17752075195312, y = 115.57725524902344, z = 1604.0614013671875}), 
-		Vec3.fromTable({x = -249.81117248535156, y = 115.5772705078125, z = 1603.651123046875}), 
-		Vec3.fromTable({x = -253.57266235351562, y = 115.57726287841797, z = 1597.9029541015625}), 
-		Vec3.fromTable({x = -253.22023010253906, y = 116.71881103515625, z = 1553.2418212890625}), 
-		Vec3.fromTable({x = -271.4930725097656, y = 116.70453643798828, z = 1553.279052734375}), 
-		Vec3.fromTable({x = -271.097900390625, y = 115.5772705078125, z = 1597.6011962890625}), 
-		Vec3.fromTable({x = -273.2315979003906, y = 115.5772476196289, z = 1603.2657470703125}), 
-		Vec3.fromTable({x = -354.7073974609375, y = 115.57726287841797, z = 1601.5565185546875}), 
-		Vec3.fromTable({x = -371.2015075683594, y = 115.5772705078125, z = 1601.2296142578125}), 
-		Vec3.fromTable({x = -370.9246520996094, y = 115.77108764648438, z = 1558.5152587890625}), 
-		Vec3.fromTable({x = -370.73956298828125, y = 115.77108764648438, z = 1507.74365234375}), 
-		Vec3.fromTable({x = -370.34002685546875, y = 115.5772705078125, z = 1446.9669189453125}), 
-		Vec3.fromTable({x = -356.42864990234375, y = 116.84927368164062, z = 1421.015380859375}), 
-		Vec3.fromTable({x = -354.02581787109375, y = 117.4511489868164, z = 1420.9085693359375}), 
-		Vec3.fromTable({x = -319.15570068359375, y = 124.40814971923828, z = 1389.5377197265625}), 
-		Vec3.fromTable({x = -267.57769775390625, y = 124.40814971923828, z = 1389.7783203125}), 
-		Vec3.fromTable({x = -215.09165954589844, y = 124.43628692626953, z = 1389.709716796875}), 
-		Vec3.fromTable({x = -198.04685974121094, y = 124.40814971923828, z = 1405.7911376953125}), 
-		Vec3.fromTable({x = -189.41015625, y = 124.40814971923828, z = 1414.24609375}), 
-		Vec3.fromTable({x = -189.07217407226562, y = 124.40814971923828, z = 1440.2498779296875}), 
-		Vec3.fromTable({x = -188.85592651367188, y = 124.49304962158203, z = 1484.164306640625}), 
-		Vec3.fromTable({x = -198.9782257080078, y = 124.97782897949219, z = 1485.3414306640625}), 
-		Vec3.fromTable({x = -223.0863800048828, y = 121.85859680175781, z = 1484.867431640625}), 
-		Vec3.fromTable({x = -223.1614227294922, y = 117.98616790771484, z = 1485.7872314453125}),
+		Vec3.fromTable({ x = -213.27886962890625, y = 115.57727813720703, z = 1602.478759765625 }),
+		Vec3.fromTable({ x = -213.51104736328125, y = 117.98617553710938, z = 1484.355712890625 }),
+		Vec3.fromTable({ x = -199.99819946289062, y = 117.63909149169922, z = 1484.66455078125 }),
+		Vec3.fromTable({ x = -200.17520141601562, y = 125.14208221435547, z = 1484.875732421875 }),
+		Vec3.fromTable({ x = -183.6353759765625, y = 124.49376678466797, z = 1484.031982421875 }), 
+		Vec3.fromTable({ x = -183.5749969482422, y = 124.49375915527344, z = 1418.763427734375 }),
+		Vec3.fromTable({ x = -216.28240966796875, y = 124.41735076904297, z = 1390.1279296875 }),
+		Vec3.fromTable({ x = -319.3074951171875, y = 124.40814971923828, z = 1390.2755126953125 }),
+		Vec3.fromTable({ x = -337.7821960449219, y = 124.43571472167969, z = 1404.3963623046875 }),
+		Vec3.fromTable({ x = -354.174560546875, y = 117.53713989257812, z = 1420.83203125 }),
+		Vec3.fromTable({ x = -356.5053405761719, y = 116.83683776855469, z = 1420.8184814453125 }),
+		Vec3.fromTable({ x = -369.10540771484375, y = 115.57726287841797, z = 1445.3924560546875 }),
+		Vec3.fromTable({ x = -369.89959716796875, y = 115.77108764648438, z = 1510.64599609375 }),
+		Vec3.fromTable({ x = -370.1000671386719, y = 115.7710952758789, z = 1558.2662353515625 }),
+		Vec3.fromTable({ x = -369.9495849609375, y = 115.5772705078125, z = 1600.0853271484375 }),
 	}
 	for _, point in pairs(points) do
 		p_Instance.points:push(point)
@@ -102,14 +84,15 @@ end
 
 partitions.onInstanceLoad(OOB.partitionGuid, OOB.instanceGuid, ValleyMapTweakTDM, ValleyMapTweakTDM.OnOOBLoaded)
 
---[[
+
+
 -------- FRIEDNLY ZONES --------
 
---- FRIENDLY ZONE 1
+--- FRIENDLY ZONE 1 TOP LEFT
 
 local FriendlyZone1 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("FF98120E-4D62-435E-8084-E34C1F69A57E"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("1E941602-F45F-46ED-BFFA-9991493728A4"),
 }
 
 function ValleyMapTweakTDM:OnFriendlyZone1Loaded(p_Instance: VolumeVectorShapeData)
@@ -117,14 +100,12 @@ function ValleyMapTweakTDM:OnFriendlyZone1Loaded(p_Instance: VolumeVectorShapeDa
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({ x = 38.24821472167969, y = 61.230072021484375, z = -344.2298583984375 }),
-		Vec3.fromTable({ x = 65.07728576660156, y = 63.27650833129883, z = -340.321044921875 }),
-		Vec3.fromTable({ x = 69.8857421875, y = 63.173370361328125, z = -345.8480224609375 }),
-		Vec3.fromTable({ x = 68.53022003173828, y = 64.67131042480469, z = -361.087890625 }),
-		Vec3.fromTable({ x = 83.10757446289062, y = 69.66258239746094, z = -390.2087097167969 }),
-		Vec3.fromTable({ x = 86.17733764648438, y = 69.10859680175781, z = -413.546142578125 }),
-		Vec3.fromTable({ x = 58.616943359375, y = 69.10859680175781, z = -411.0966796875 }),
-		Vec3.fromTable({ x = 49.037662506103516, y = 69.10860443115234, z = -396.29827880859375 }),
+		Vec3.fromTable({ x = -213.497802734375, y = 118.16387176513672, z = 1599.03271484375 }),
+		Vec3.fromTable({ x = -258.85870361328125, y = 115.5772705078125, z = 1597.888427734375 }),
+		Vec3.fromTable({ x = -265.2359313964844, y = 117.98617553710938, z = 1521.6619873046875 }),
+		Vec3.fromTable({ x = -263.6839904785156, y = 117.98617553710938, z = 1511.53759765625 }),
+		Vec3.fromTable({ x = -258.2071533203125, y = 117.98616790771484, z = 1499.8157958984375 }),
+		Vec3.fromTable({ x = -213.66378784179688, y = 117.98617553710938, z = 1501.500732421875 }),
 	}
 
 	for _, point in pairs(points) do
@@ -140,11 +121,11 @@ partitions.onInstanceLoad(
 	ValleyMapTweakTDM.OnFriendlyZone1Loaded
 )
 
---- FRIENDLY ZONE 2
+--- FRIENDLY ZONE 2 TOP RIGHT
 
 local FriendlyZone2 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("FAA7D804-C8C1-4B16-97E3-7DAEFAC4406D"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("E26859B2-4651-4FA9-99A9-3F818289448E"),
 }
 
 function ValleyMapTweakTDM:OnFriendlyZone2Loaded(p_Instance: VolumeVectorShapeData)
@@ -152,11 +133,16 @@ function ValleyMapTweakTDM:OnFriendlyZone2Loaded(p_Instance: VolumeVectorShapeDa
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({ x = -142.23245239257812, y = 67.23540496826172, z = -478.28826904296875 }),
-		Vec3.fromTable({ x = -170.65316772460938, y = 67.60188293457031, z = -465.3347473144531 }),
-		Vec3.fromTable({ x = -141.19015502929688, y = 67.3891830444336, z = -436.537109375 }),
-		Vec3.fromTable({ x = -115.81452941894531, y = 67.4323501586914, z = -420.70751953125 }),
-		Vec3.fromTable({ x = -98.80048370361328, y = 69.39755249023438, z = -454.0665588378906 }),
+		Vec3.fromTable({ x = -274.519287109375, y = 118.16387176513672, z = 1599.4609375 }),
+		Vec3.fromTable({ x = -253.06216430664062, y = 115.57727813720703, z = 1598.3724365234375 }),
+		Vec3.fromTable({ x = -263.00579833984375, y = 117.98617553710938, z = 1546.336181640625 }),
+		Vec3.fromTable({ x = -278.1588439941406, y = 117.98617553710938, z = 1545.1859130859375 }),
+		Vec3.fromTable({ x = -289.69171142578125, y = 117.98617553710938, z = 1554.0819091796875 }),
+		Vec3.fromTable({ x = -306.00115966796875, y = 117.98616790771484, z = 1560.259521484375 }),
+		Vec3.fromTable({ x = -330.7238464355469, y = 117.98616790771484, z = 1558.73095703125 }),
+		Vec3.fromTable({ x = -360.7387390136719, y = 116.93232727050781, z = 1558.7578125 }),
+		Vec3.fromTable({ x = -370.5507507324219, y = 115.5772476196289, z = 1560.7767333984375 }),
+		Vec3.fromTable({ x = -368.9209899902344, y = 115.5772705078125, z = 1600.30712890625 }),
 	}
 
 	for _, point in pairs(points) do
@@ -172,11 +158,11 @@ partitions.onInstanceLoad(
 	ValleyMapTweakTDM.OnFriendlyZone2Loaded
 )
 
---- FRIENDLY ZONE 3
+--- FRIENDLY ZONE 3 MIDDLE RIGHT
 
 local FriendlyZone3 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("52B3BE63-A707-4D7C-AE5F-58E660AD7D30"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("AD5EA37C-19C0-494D-BF02-6F91401EDC73"),
 }
 
 function ValleyMapTweakTDM:OnFriendlyZone3Loaded(p_Instance: VolumeVectorShapeData)
@@ -184,14 +170,17 @@ function ValleyMapTweakTDM:OnFriendlyZone3Loaded(p_Instance: VolumeVectorShapeDa
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({ x = -29.860393524169922, y = 69.25900268554688, z = -463.55084228515625 }),
-		Vec3.fromTable({ x = -42.73773193359375, y = 69.31053161621094, z = -463.6760559082031 }),
-		Vec3.fromTable({ x = -42.31326675415039, y = 69.49713897705078, z = -454.095703125 }),
-		Vec3.fromTable({ x = -76.78680419921875, y = 69.10882568359375, z = -459.1063537597656 }),
-		Vec3.fromTable({ x = -73.51019287109375, y = 69.21101379394531, z = -466.4494323730469 }),
-		Vec3.fromTable({ x = -90.63661193847656, y = 69.15219116210938, z = -472.0802307128906 }),
-		Vec3.fromTable({ x = -88.97529602050781, y = 69.12394714355469, z = -486.6917724609375 }),
-		Vec3.fromTable({ x = -28.932952880859375, y = 69.24935150146484, z = -485.9827880859375 }),
+		Vec3.fromTable({ x = -370.2239685058594, y = 115.7710952758789, z = 1558.0567626953125 }),
+		Vec3.fromTable({ x = -361.0601806640625, y = 115.77108764648438, z = 1557.9898681640625 }),
+		Vec3.fromTable({ x = -360.4017028808594, y = 116.93232727050781, z = 1557.9813232421875 }),
+		Vec3.fromTable({ x = -316.2768859863281, y = 117.98617553710938, z = 1557.7987060546875 }),
+		Vec3.fromTable({ x = -301.5555725097656, y = 117.98617553710938, z = 1556.5887451171875 }),
+		Vec3.fromTable({ x = -284.634765625, y = 117.98617553710938, z = 1554.347900390625 }),
+		Vec3.fromTable({ x = -268.4824523925781, y = 117.98617553710938, z = 1523.7396240234375 }),
+		Vec3.fromTable({ x = -262.5980529785156, y = 117.98617553710938, z = 1510.7071533203125 }),
+		Vec3.fromTable({ x = -266.7860412597656, y = 117.98617553710938, z = 1497.8980712890625 }),
+		Vec3.fromTable({ x = -359.9371032714844, y = 116.89232635498047, z = 1505.264892578125 }),
+		Vec3.fromTable({ x = -370.1941223144531, y = 115.77223205566406, z = 1508.005859375 }),
 	}
 
 	for _, point in pairs(points) do
@@ -207,11 +196,11 @@ partitions.onInstanceLoad(
 	ValleyMapTweakTDM.OnFriendlyZone3Loaded
 )
 
---- FRIENDLY ZONE 4
+--- FRIENDLY ZONE 4 MID
 
 local FriendlyZone4 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("08114A0E-C71F-4787-9625-0B1285ABD21D"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("AFC2579B-9BD3-4C1D-B7F3-5232D3D443F4"),
 }
 
 function ValleyMapTweakTDM:OnFriendlyZone4Loaded(p_Instance: VolumeVectorShapeData)
@@ -219,13 +208,20 @@ function ValleyMapTweakTDM:OnFriendlyZone4Loaded(p_Instance: VolumeVectorShapeDa
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({ x = -94.82620239257812, y = 64.4937744140625, z = -378.4818115234375 }),
-		Vec3.fromTable({ x = -43.294105529785156, y = 64.49402618408203, z = -372.89202880859375 }),
-		Vec3.fromTable({ x = -42.690269470214844, y = 69.46570587158203, z = -381.56414794921875 }),
-		Vec3.fromTable({ x = -42.24675369262695, y = 69.42245483398438, z = -401.06060791015625 }),
-		Vec3.fromTable({ x = -79.94001007080078, y = 67.39165496826172, z = -411.9438781738281 }),
-		Vec3.fromTable({ x = -84.73725128173828, y = 67.39165496826172, z = -413.2845458984375 }),
-		Vec3.fromTable({ x = -99.12545013427734, y = 64.4937744140625, z = -379.7035217285156 }),
+		Vec3.fromTable({ x = -358.66998291015625, y = 116.89232635498047, z = 1503.8065185546875 }),
+		Vec3.fromTable({ x = -345.26416015625, y = 118.06486511230469, z = 1501.5946044921875 }),
+		Vec3.fromTable({ x = -315.151611328125, y = 117.98617553710938, z = 1508.9698486328125 }),
+		Vec3.fromTable({ x = -301.869873046875, y = 117.98617553710938, z = 1509.3623046875 }),
+		Vec3.fromTable({ x = -276.235107421875, y = 117.98617553710938, z = 1509.2178955078125 }),
+		Vec3.fromTable({ x = -256.00384521484375, y = 117.9861831665039, z = 1508.8853759765625 }),
+		Vec3.fromTable({ x = -213.9880828857422, y = 117.9861831665039, z = 1508.4659423828125 }),
+		Vec3.fromTable({ x = -214.1217803955078, y = 117.98617553710938, z = 1484.800537109375 }),
+		Vec3.fromTable({ x = -214.20657348632812, y = 123.3575439453125, z = 1484.8514404296875 }),
+		Vec3.fromTable({ x = -192.89903259277344, y = 124.40814208984375, z = 1483.721435546875 }),
+		Vec3.fromTable({ x = -198.07615661621094, y = 124.40814208984375, z = 1469.567138671875 }),
+		Vec3.fromTable({ x = -367.1180419921875, y = 124.44945526123047, z = 1465.172119140625 }),
+		Vec3.fromTable({ x = -367.21746826171875, y = 124.44944763183594, z = 1472.6461181640625 }),
+		Vec3.fromTable({ x = -367.1654052734375, y = 115.5772705078125, z = 1475.9967041015625 }),
 	}
 
 	for _, point in pairs(points) do
@@ -241,11 +237,12 @@ partitions.onInstanceLoad(
 	ValleyMapTweakTDM.OnFriendlyZone4Loaded
 )
 
---- FRIENDLY ZONE 5
+
+--- FRIENDLY ZONE 5 bottom right 
 
 local FriendlyZone5 = {
-	partitionGuid = Guid("C028D4ED-2BBC-42F0-9AE4-E008B9CDD265"),
-	instanceGuid = Guid("88F05F90-10DA-4713-A2AC-7C2C45EFF5A5"),
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("8A6FCCC3-C347-478A-A8ED-5948B5F84532"),
 }
 
 function ValleyMapTweakTDM:OnFriendlyZone5Loaded(p_Instance: VolumeVectorShapeData)
@@ -253,14 +250,16 @@ function ValleyMapTweakTDM:OnFriendlyZone5Loaded(p_Instance: VolumeVectorShapeDa
 	p_Instance.points:clear()
 
 	local points = {
-		Vec3.fromTable({ x = -0.48842525482177734, y = 67.54789733886719, z = -449.9632568359375 }),
-		Vec3.fromTable({ x = -41.89293670654297, y = 67.21977996826172, z = -443.5693054199219 }),
-		Vec3.fromTable({ x = -41.88430404663086, y = 67.6417007446289, z = -402.4059143066406 }),
-		Vec3.fromTable({ x = -13.12729549407959, y = 68.02108001708984, z = -402.2728576660156 }),
-		Vec3.fromTable({ x = 20.471708297729492, y = 69.2591781616211, z = -396.46484375 }),
-		Vec3.fromTable({ x = 21.80219268798828, y = 69.25914764404297, z = -396.06182861328125 }),
-		Vec3.fromTable({ x = 20.820302963256836, y = 69.17931365966797, z = -432.29730224609375 }),
-		Vec3.fromTable({ x = 20.91796875, y = 69.17930603027344, z = -448.1243591308594 }),
+		Vec3.fromTable({ x = -366.77520751953125, y = 124.44945526123047, z = 1472.28662109375 }),
+		Vec3.fromTable({ x = -367.197021484375, y = 124.44944763183594, z = 1459.4791259765625 }),
+		Vec3.fromTable({ x = -365.57220458984375, y = 115.5772705078125, z = 1437.677490234375 }),
+		Vec3.fromTable({ x = -354.9811096191406, y = 117.1688232421875, z = 1420.9735107421875 }),
+		Vec3.fromTable({ x = -319.941162109375, y = 124.40815734863281, z = 1391.445556640625 }),
+		Vec3.fromTable({ x = -273.623291015625, y = 124.40814971923828, z = 1390.5570068359375 }),
+		Vec3.fromTable({ x = -273.9826354980469, y = 124.40814971923828, z = 1432.8330078125 }),
+		Vec3.fromTable({ x = -281.32305908203125, y = 124.49019622802734, z = 1472.7506103515625 }),
+		Vec3.fromTable({ x = -283.0870056152344, y = 117.98617553710938, z = 1477.5477294921875 }),
+		Vec3.fromTable({ x = -360.6351318359375, y = 116.93232727050781, z = 1475.424072265625 }),
 	}
 
 	for _, point in pairs(points) do
@@ -275,5 +274,43 @@ partitions.onInstanceLoad(
 	ValleyMapTweakTDM,
 	ValleyMapTweakTDM.OnFriendlyZone5Loaded
 )
-]]
+
+--- FRIENDLY ZONE 6 bottom left 
+
+local FriendlyZone6 = {
+	partitionGuid = Guid("D2B48797-0DAB-42D6-A9D4-F68CB96941AB"),
+	instanceGuid = Guid("62322294-C9D1-4EB2-A9BF-C524C66B4603"),
+}
+
+function ValleyMapTweakTDM:OnFriendlyZone6Loaded(p_Instance: VolumeVectorShapeData)
+	p_Instance.height = 0
+	p_Instance.points:clear()
+
+	local points = {
+		Vec3.fromTable({ x = -268.71356201171875, y = 117.98617553710938, z = 1484.6781005859375 }),
+		Vec3.fromTable({ x = -247.6598663330078, y = 118.11976623535156, z = 1484.337158203125 }),
+		Vec3.fromTable({ x = -196.03439331054688, y = 124.40814971923828, z = 1483.6014404296875 }),
+		Vec3.fromTable({ x = -183.6265411376953, y = 124.49375915527344, z = 1483.939453125 }),
+		Vec3.fromTable({ x = -183.69024658203125, y = 124.49375915527344, z = 1417.89404296875 }),
+		Vec3.fromTable({ x = -216.99249267578125, y = 124.40814971923828, z = 1390.5130615234375 }),
+		Vec3.fromTable({ x = -276.78204345703125, y = 124.40814971923828, z = 1390.4075927734375 }),
+		Vec3.fromTable({ x = -279.1036682128906, y = 124.40814971923828, z = 1431.8748779296875 }),
+		Vec3.fromTable({ x = -282.1884460449219, y = 124.40814971923828, z = 1449.421630859375 }),
+		Vec3.fromTable({ x = -278.2825622558594, y = 124.49019622802734, z = 1472.708251953125 }),
+	}
+
+	for _, point in pairs(points) do
+		p_Instance.points:push(point)
+		--print('YOOOOOOOOOOOOOO.')
+	end
+end
+
+partitions.onInstanceLoad(
+	FriendlyZone6.partitionGuid,
+	FriendlyZone6.instanceGuid,
+	ValleyMapTweakTDM,
+	ValleyMapTweakTDM.OnFriendlyZone6Loaded
+)
+
+
 return nil
